@@ -12,7 +12,10 @@
 <body>
 <div class="app">
   <header class="hud">
-    <div class="brand"><b>:</b>Vim Isles</div>
+    <div class="brand-block">
+      <div class="brand"><b>:</b>Vim Isles</div>
+      <p class="tagline">A game for learning Vim</p>
+    </div>
     <div class="isle-now"><span id="isleNum">Isle 1 of 15</span><strong id="isleTitle">Landfall</strong></div>
     <div class="stats"><span class="stat gems" id="gemStat"></span><span class="stat" id="keyStat"></span></div>
     <nav class="hud-btns">
@@ -53,13 +56,20 @@
     </div>
     <aside class="lesson" id="lesson"></aside>
   </main>
+  <footer class="credits">
+    <p>Vim Isles teaches real Vim keys by playing; no install, no config, just <kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd> and a boat.</p>
+    <a class="repo" href="https://github.com/jayasanka-sack/vim-isles" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.34c-2.23.48-2.7-1.07-2.7-1.07-.36-.93-.89-1.18-.89-1.18-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.72 1.23 1.88.87 2.34.67.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48l-.01 2.19c0 .21.15.46.55.38A8 8 0 0 0 8 0Z"/></svg>
+      Source on GitHub
+    </a>
+  </footer>
 </div>
 
 <div class="modal" id="chartModal" hidden><div class="sheet"><div class="sheet-head"><h2>The chart</h2><button type="button" data-close>Close</button></div><div class="isles" id="isles"></div></div></div>
 <div class="modal" id="guideModal" hidden><div class="sheet"><div class="sheet-head"><h2>Field guide</h2><button type="button" data-close>Close</button></div><div class="guide" id="guide"></div></div></div>
 <div class="modal" id="introModal" hidden><div class="sheet intro-sheet">
   <h2>Vim Isles</h2>
-  <p>An archipelago made of text, and the only way to get around is Vim. Each isle teaches a few keys. Clear it by collecting its gems or by reshaping its text until it matches the chart.</p>
+  <p><strong>Vim Isles is a game for learning Vim.</strong> An archipelago made of text, and the only way to get around is Vim. Each isle teaches a few keys. Clear it by collecting its gems or by reshaping its text until it matches the chart.</p>
   <p>Fifteen isles take you from <kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd> to <kbd>:wq</kbd>. Keys you have not learned yet stay locked, and every isle has a par for keystrokes if you want to chase three stars.</p>
   <p class="legend">Progress is kept in this browser.</p>
   <div class="row" style="display:flex;gap:8px"><button class="btn main" id="introGo" type="button">Set sail (Enter)</button></div>
