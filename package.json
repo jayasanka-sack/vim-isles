@@ -1,0 +1,14 @@
+{
+  "name": "modal-isles",
+  "version": "1.0.0",
+  "description": "Learn Vim by sailing an archipelago made of text.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "npx --yes serve . -l 5173",
+    "test": "node tools/test-engine.js && node tools/check-levels.js",
+    "check": "node tools/check-levels.js",
+    "pars": "node tools/compute-pars.js"
+  },
+  "engines": { "node": ">=18" }
+}

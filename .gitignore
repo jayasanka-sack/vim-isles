@@ -1,0 +1,63 @@
+node_modules/
+.DS_Store
+*.log
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# Editors
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build outputs
+build/
+dist/
+target/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Node.js
+node_modules/
+coverage/
