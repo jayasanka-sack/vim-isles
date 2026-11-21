@@ -1,4 +1,4 @@
-# Contributing to Modal Isles
+# Contributing to Vim Isles
 
 Thanks for wanting to help. This guide covers the setup, the three most common kinds of change, and what we look for in a pull request.
 
@@ -8,7 +8,7 @@ You only need a browser and Node 18+.
 
 ```sh
 git clone <your fork>
-cd modal-isles
+cd vim-isles
 npm test
 ```
 

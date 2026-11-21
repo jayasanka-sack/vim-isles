@@ -1,4 +1,4 @@
-// Modal Isles: draws the sea, the text island, gems, cursor and effects on a canvas.
+// Vim Isles: draws the sea, the text island, gems, cursor and effects on a canvas.
 // The island layer is cached and only redrawn when the buffer or tile size changes.
 
 // ---------- rendering ----------

@@ -1,4 +1,4 @@
-# Modal Isles
+# Vim Isles
 
 Learn Vim by sailing an archipelago made of text.
 

@@ -1,9 +1,9 @@
-// Modal Isles: game state, level flow, side panels and keyboard input.
+// Vim Isles: game state, level flow, side panels and keyboard input.
 const $ = s => document.querySelector(s);
 const COL = { sea: '#0e3a4d', wave: '#2c6a7f', foam: '#3d8794', sand: '#dcbf86', sand2: '#c9a86c', stone: '#f4ecdb', shade: '#bfae8a', ink: '#2b2117', lantern: '#ffc14a', coral: '#ff7b5f', mint: '#79dfae', gem: '#6ee7ff', muted: '#7fa3a9', text: '#e8f0ec', sel: 'rgba(255,123,95,.38)' };
 const MONO = '"JetBrains Mono", ui-monospace, Menlo, monospace';
 const REDUCED = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-const SAVE_KEY = 'modal-isles-v1';
+const SAVE_KEY = 'vim-isles-v1';
 let save = { stars: {}, current: 0, seenIntro: false };
 try { const d = JSON.parse(localStorage.getItem(SAVE_KEY)); if (d) save = Object.assign(save, d); } catch (e) {}
 const persist = () => { try { localStorage.setItem(SAVE_KEY, JSON.stringify(save)); } catch (e) {} };

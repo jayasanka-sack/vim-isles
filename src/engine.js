@@ -1,4 +1,4 @@
-// Modal Isles: a small Vim engine.
+// Vim Isles: a small Vim engine.
 // Pure logic, no DOM. The game feeds it one key token at a time ("j", "Esc", "Enter", "C-r", ...)
 // and reads back the buffer, cursor, mode and messages. Node tools load this file too.
 const WORDC = /[A-Za-z0-9_]/;

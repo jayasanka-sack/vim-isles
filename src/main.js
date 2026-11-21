@@ -1,4 +1,4 @@
-// Modal Isles: boot. Loaded last, after every other script.
+// Vim Isles: boot. Loaded last, after every other script.
 
 window.addEventListener('resize', () => { layoutWorld(); });
 if (window.ResizeObserver) new ResizeObserver(() => layoutWorld()).observe($('#viewport'));

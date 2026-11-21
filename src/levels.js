@@ -1,4 +1,4 @@
-// Modal Isles: the isles, in order.
+// Vim Isles: the isles, in order.
 // See CONTRIBUTING.md for how to add or change one.
 //
 // Map markers:
